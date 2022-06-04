@@ -1,0 +1,48 @@
+html {
+    background-color: beige;
+}
+.nav {
+    background-color: rgb(181, 181, 244);
+}
+.nav_li {
+    display: inline-block;
+    font-size: 20px; 
+    padding: 20px;  
+}    
+.nav_ul a {
+    text-decoration: double;
+}
+.nav_ul a:hover {
+    text-decoration: double;
+    color: red;
+}
+.nav_ul i {
+    color: rgb(95, 89, 89);
+}
+
+.nav_ul_responsive {
+    display: none;
+}
+.nav_li_responsive {
+    display: inline-block;
+    font-size: 10px; 
+    padding: 10px;
+}
+.nav_ul_responsive a {
+    text-decoration: double;
+}
+.nav_ul_responsive a:hover {
+    text-decoration: double;
+    color: red;
+}
+.nav_ul_responsive i {
+    color: rgb(95, 89, 89);
+}
+@media only screen and (max-width: 230px) {
+    .nav_ul {
+        display: none;
+    }
+    .nav_ul_responsive {
+        display: block;
+    }
+}
