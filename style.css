@@ -46,3 +46,37 @@ html {
         display: block;
     }
 }
+.tecnologias-aprendidas {
+    color:blue;
+    background-color: red;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: rgb(204, 29, 29);
+}
+.div1 {
+    background-color: aqua;
+    display: inline-block;
+    overflow: visible;
+    
+}
+.div1 a {
+    display:inline-block;
+    font-size: 40px;
+   vertical-align:top ;
+   color: rgb(203, 184, 35);
+   text-decoration-color:chocolate ;
+}
+.div2 {
+    display:inline-block;
+    float:none;
+    background-color: rgb(129, 181, 196);
+}
+.div2 a {
+    color: chartreuse;
+    text-decoration-color:rgb(210, 57, 210) ;
+   font-size: 40px;
+   vertical-align: top;
+}
+a:visited {
+    color: red;
+}
